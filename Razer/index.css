@@ -1,34 +1,55 @@
 /*Ändrar bakgrundsfärg i home*/
 body {
     background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+/*Ändrar färg på länkarna i menyn och tar bort understreck på länkar*/
+a{
+  color: rgb(0, 80, 0);
+  text-decoration: none;
 }
 
 /*Ändrar färg på menyn*/
-.topnav {
-    background-color: rgb(82, 82, 82);
-    overflow: hidden;
- 
+nav {
+    background-color: rgb(48, 48, 48);
+    
 
   }
+
   
-  .topnav a {
-    float: left;
-    float: center;
+  /*Justerar positionen på länkarna i menyn och tar bort punkter*/
+  nav ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    width: min-content;
+  }
+  
+  /*Ändrar texttyp, tjocklek, färg och position på länkar i menyn*/
+  nav li {
     font-family: Arial;
     font-weight: bold;
-    color: rgb(40, 150, 40);
+    color: rgb(26, 117, 26);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
+    text-decoration: none;
   }
   
-  .topnav a:hover {
+  /*Gör så länkarna lyser när man håller över*/
+  nav a:hover {
     color: rgb(141, 241, 121);
   }
   
-  .topnav a.active {
+  /*Gör så den aktiva sidans länk har viss färg*/
+  nav a.active {
     color: rgb(40, 150, 40);
+    font-size: 30px;
   }
 
-    
+  /*Ändrar storlek på logga*/
+  img {
+    width: 70%;
+  }
