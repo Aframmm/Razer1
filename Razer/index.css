@@ -13,7 +13,8 @@ a{
 /*Ändrar färg på menyn*/
 nav {
     background-color: rgb(48, 48, 48);
-    
+    display: grid;
+    grid-template-columns: 1fr 8fr;
 
   }
 
@@ -35,7 +36,7 @@ nav {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
-    text-decoration: none;
+    text-decoration: none; 
   }
   
   /*Gör så länkarna lyser när man håller över*/
@@ -51,5 +52,6 @@ nav {
 
   /*Ändrar storlek på logga*/
   img {
-    width: 70%;
+   height: 100px;
+    
   }
