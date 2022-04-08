@@ -4,20 +4,24 @@ body {
     margin: 0;
 }
 
-/*Ändrar färg på länkarna i menyn och tar bort understreck på länkar*/
+/*Tar bort understreck på länkar*/
 a{
-  color: rgb(0, 80, 0);
+  color:rgb(2, 117, 31);
   text-decoration: none;
 }
 
 /*Ändrar färg på menyn*/
 nav {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(37, 37, 37);
     display: grid;
     grid-template-columns: 1fr 8fr;
 
   }
 
+  /*Flyttar länkar i menyn till mitten*/
+  .global{
+    margin-left: 28%;
+  }
   
   /*Justerar positionen på länkarna i menyn och tar bort punkter*/
   nav ul{
@@ -31,7 +35,6 @@ nav {
   nav li {
     font-family: Arial;
     font-weight: bold;
-    color: rgb(26, 117, 26);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
