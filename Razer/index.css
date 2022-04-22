@@ -54,7 +54,31 @@ nav {
   }
 
   /*Ändrar storlek på logga*/
-  img {
+  nav img {
    height: 100px;
     
+  }
+
+  main img[src="RazerRazer.jpg"]{
+    height: 350px;
+    display: block;
+    margin: auto;
+  }
+
+  h1{
+    color: rgb(0, 161, 0);
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p{
+    color: rgb(0, 161, 0);
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .footer{
+    font-size: 10px;
   }
