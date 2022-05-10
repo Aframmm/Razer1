@@ -1,0 +1,96 @@
+/*Ändrar bakgrundsfärg i home*/
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+/*Tar bort understreck på länkar*/
+a{
+  color:rgb(2, 117, 31);
+  text-decoration: none;
+}
+
+/*Ändrar färg på menyn*/
+nav {
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+
+  }
+
+  /*Flyttar länkar i menyn till mitten*/
+  .global{
+    margin-left: 28%;
+  }
+  
+  /*Justerar positionen på länkarna i menyn och tar bort punkter*/
+  nav ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    width: min-content;
+  }
+  
+  /*Ändrar texttyp, tjocklek, färg och position på länkar i menyn*/
+  nav li {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    text-decoration: none; 
+  }
+  
+  /*Gör så länkarna lyser när man håller över*/
+  nav a:hover {
+    color: rgb(141, 241, 121);
+  }
+  
+  /*Gör så den aktiva sidans länk har viss färg*/
+  nav a.active {
+    color: rgb(40, 150, 40);
+    font-size: 30px;
+  }
+
+  /*Ändrar storlek på logga*/
+  nav img {
+   height: 100px;
+    
+  }
+
+  main section:first-of-type{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  main section:first-of-type img{
+    display: block;
+    margin: 0 auto;
+    height: 320px
+  }
+
+  main section h2{
+    color: rgb(0, 126, 0);
+    text-align: center;
+    font-family: arial;
+  }
+
+    /*ändrar färg, storlek och position på footer*/
+    footer{
+        color: black;
+        margin-bottom: 0px;
+        position: fixed;
+        background-color: rgb(37, 37, 37);
+        width: 100%;
+        bottom: 0;
+      }
+    
+      /*Ändrar stil, färg och position på texten i footer*/
+      .footer{
+        font-size: 17px;
+        font-family: arial;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        padding-left: 10px;
+      }
