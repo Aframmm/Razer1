@@ -14,9 +14,13 @@ a{
 nav {
     background-color: rgb(37, 37, 37);
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 8fr 1fr;
 
   }
+
+nav ul+a{
+  margin: auto;
+}
 
   /*Flyttar länkar i menyn till mitten*/
   .global{
@@ -98,4 +102,11 @@ nav {
     color: rgb(255, 255, 255);
     text-align: left;
     padding-left: 10px;
+  }
+
+  .link{
+    font-family: arial;
+    background-color: black;
+    border: black solid 10px;
+    border-radius: 10px;
   }
