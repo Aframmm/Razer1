@@ -114,9 +114,15 @@ nav ul+a{
       .alts:hover{
         color: rgb(141, 241, 121);
       }
-
+      
+      /*Annan färg om länken redan besökts*/
+      .link:visited {
+        color: #93ff93;
+      }
+      
       .link{
         font-family: arial;
+        font-weight: bold;
         background-color: black;
         border: black solid 10px;
         border-radius: 10px;

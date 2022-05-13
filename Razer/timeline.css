@@ -87,6 +87,8 @@ nav ul+a{
         border: rgb(49, 49, 49) solid 10px;
         background-color: rgb(49, 49, 49);
         border-radius: 1em;
+        display: block;
+        margin: 0 auto;
       }
 
         /*Annan färg om länken redan besökts*/
@@ -94,10 +96,39 @@ nav ul+a{
         color: #93ff93;
         }
 
+        .history{
+          color: rgb(17, 201, 0);
+          font-family: arial;
+          font-size: 40px;  
+          background-color: rgb(32, 32, 32);
+          border: rgb(32, 32, 32) solid 10px;
+          border-radius: 10px;
+        }
+
         .link{
           font-family: arial;
+          font-weight: bold;
           background-color: black;
           border: black solid 10px;
           border-radius: 10px;
+        }
+
+        section:first-of-type{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+        section:last-of-type{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+        }
+
+        h1 {
+          color: rgb(0, 184, 0);
+          font-family: arial;
+          text-align: center;
+        }
+        img{
+          height: 200px;
         }
 
