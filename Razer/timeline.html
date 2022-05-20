@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timeline</title>
     <link rel="stylesheet" href="timeline.css">
+    <script src="forms.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,9 +31,67 @@
                 title="Latest unveils" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <div>
+                <audio controls>
+                <source src="audiotest.mp3" type="audio/mpeg">
+                
+                    </audio>
+
+                    <img src="/Razer/timeline.png" alt="Mouse Timeline">
+            </div>
+            
+            <a href="#popup" id="popup">Forms</a>
         </section>
         <section>
+            
         </section>
+
+        <div id="form">
+            <h2>Forms</h2>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"> <br> <br>
+
+
+                <input type="checkbox" id="headset" name="headset" value="headset">
+         <label for="headset"> I have a headset</label><br>
+         <input type="checkbox" id="mouse" name="mouse" value="mouse">
+         <label for="mouse"> I have a mouse</label><br>
+         <input type="checkbox" id="keyboard" name="keyboard" value="keyboard">
+         <label for="keyboard"> I have a keyboard</label> <br> <br>
+
+ 
+         <label for="comment">Comment:</label><br>
+        <textarea rows="4" cols="50" name="comment" form="usrform" id="comment"></textarea>
+
+ 
+              </form>
+              <fieldset>
+                <legend>Select a device:</legend>
+            
+                <div>
+                  <input type="radio" id="huey" name="drone" value="huey"
+                         checked>
+                  <label for="huey">Headset</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="dewey" name="drone" value="dewey">
+                  <label for="dewey">Mouse</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="louie" name="drone" value="louie">
+                  <label for="louie">Keyboard</label>
+                </div>
+            </fieldset> <br>
+            <input type="submit" value="Submit"><br>
+            <br>
+
+            <a href="#" id="closePopup">Close</a>
+        </div>
     </main>
 
     <footer>
