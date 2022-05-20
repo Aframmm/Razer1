@@ -160,9 +160,10 @@ nav ul+a{
         
 
         #form a{
-          font-size: 3em;
+          font-size: 1.5em;
           font-family: arial;
-          color: rgb(0, 184, 0);
+          color: green;
+          font-weight: unset;
         }
 
         #popup{
@@ -178,5 +179,41 @@ nav ul+a{
           main section div:nth-child(3){
             display: grid;
             grid-template-columns: 1fr 1fr;
+          }
+
+          .forms {
+          font-family: arial;
+          font-weight: bold;
+          background-color: rgb(37, 37, 37);
+          border: rgb(37, 37, 37) solid 10px;
+          border-radius: 10px;
+          }
+
+          .forms:hover {
+            color: #93ff93;
+          }
+
+          .forms:focus {
+            color: rgb(37, 37, 37);
+          }
+
+          #closepopup {
+          background-color: rgb(255, 255, 255);
+          border: rgb(255, 255, 255) solid 0.1px;
+          }
+
+          #closepopup:hover {
+            border-color: rgb(224, 224, 224);
+            background-color: rgba(255, 255, 255, 0.95);
+          }
+
+          .submit {
+            font-size: xx-large;
+           color: green;
+          }
+
+          audio{
+            display: block;
+            margin: 0 auto;
           }
 

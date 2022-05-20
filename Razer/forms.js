@@ -3,7 +3,7 @@ const form = document.getElementById("form");
 const popup = document.getElementById("popup");
 popup.addEventListener("click", Popup);
 
-const closePopup = document.getElementById("closePopup");
+const closePopup = document.getElementById("closepopup");
 closePopup.addEventListener("click", ClosePopup);
 
 

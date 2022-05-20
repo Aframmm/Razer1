@@ -94,3 +94,9 @@ nav ul+a{
         border: black solid 10px;
         border-radius: 10px;
       }
+
+      h1 {
+        font-size: xx-large;
+        font-family: arial;
+        color: #93ff93;
+      }
