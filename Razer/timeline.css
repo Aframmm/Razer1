@@ -1,26 +1,27 @@
-/*Ändrar bakgrundsfärg i home*/
-body {
+  /*Ändrar bakgrundsfärg i home*/
+  body {
     background-color: rgb(0, 0, 0);
     margin: 0;
-}
+  }
 
-/*Tar bort understreck på länkar*/
-a{
+  /*Tar bort understreck på länkar*/
+  a{
   color:rgb(2, 117, 31);
   text-decoration: none;
-}
+  }
 
-/*Ändrar färg på menyn*/
-nav {
+  /*Ändrar färg på menyn*/
+  nav {
     background-color: rgb(37, 37, 37);
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
 
   }
 
-nav ul+a{
+  /*Sätter den externa länkens position i menyn*/
+  nav ul+a{
   margin: auto;
-}
+  }
 
   /*Flyttar länkar i menyn till mitten*/
   .global{
@@ -96,6 +97,7 @@ nav ul+a{
         color: #93ff93;
         }
 
+        /*Ändrar färg, stil och bakgrund på stycket*/
         .history{
           color: rgb(17, 201, 0);
           font-family: arial;
@@ -104,7 +106,8 @@ nav ul+a{
           border: rgb(32, 32, 32) solid 10px;
           border-radius: 10px;
         }
-
+        
+        /*Ändrar stil, tjocklek, färg, border och hörn på länk*/
         .link{
           font-family: arial;
           font-weight: bold;
@@ -113,25 +116,25 @@ nav ul+a{
           border-radius: 10px;
         }
 
+        /*Sätter ut grid*/
         section:first-of-type{
           display: grid;
           grid-template-columns: 1fr 1fr;
         }
 
-        section:last-of-type{
-          display: grid;
-          grid-template-columns: repeat(1, 1fr);
-        }
-
+        /*Ändrar färg och stil på rubrik*/
         h1 {
           color: rgb(0, 184, 0);
           font-family: arial;
           text-align: center;
         }
-        img{
+
+        /*Ändrar storlek på bild*/
+        img {
           height: 25ex;
         }
 
+        /*Ställer in position, storlek och färg på popup till formulär*/
         #form{
           display: none;
           position: fixed;
@@ -140,25 +143,25 @@ nav ul+a{
           transform: translate(50%, 50%);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           z-index: 1;
-
           width: 40%;
           height:60%;
           background-color:rgb(83, 83, 83);
           border-radius: 20px;
         }
 
+        /*Gör länk tjock*/
         a{
           font-weight: bold;
         }
 
+        /*Ändrar färg och storlek på text i formulär*/
         label, legend{
           color: rgb(0, 184, 0);
           font-size: larger;
           font-family: arial;
         }
 
-        
-
+        /*Ändrar storlek, stil och färg på text i formulär*/
         #form a{
           font-size: 1.5em;
           font-family: arial;
@@ -166,21 +169,25 @@ nav ul+a{
           font-weight: unset;
         }
 
+        /*Ändrar storlek på länk till formulär*/
         #popup{
           font-size: 10em;
         }
 
+        /*Ändrar färg och stil på rubrik över ljudfil*/
         h2 {
           color: rgb(0, 184, 0);
           font-family: arial;
           text-align: center;
           }
 
+          /*Ändrar section under grid*/
           main section div:nth-child(3){
             display: grid;
             grid-template-columns: 1fr 1fr;
           }
 
+          /*Ändrar stil, tjocklek, färg och bakgrund på knapp till formulär*/
           .forms {
           font-family: arial;
           font-weight: bold;
@@ -189,31 +196,43 @@ nav ul+a{
           border-radius: 10px;
           }
 
+          /*Färg på knapp till formulär lyser n'r man håller över*/
           .forms:hover {
             color: #93ff93;
           }
 
+          /*Länk till formulär ändrar färg när man klickat*/
           .forms:focus {
             color: rgb(37, 37, 37);
           }
 
+          /*Ändrar bakgruhnd på closeknapp*/
           #closepopup {
           background-color: rgb(255, 255, 255);
           border: rgb(255, 255, 255) solid 0.1px;
           }
 
+          /*Closeknapp lyser när man håller över*/
           #closepopup:hover {
             border-color: rgb(224, 224, 224);
             background-color: rgba(255, 255, 255, 0.95);
           }
 
+          /*Ändrar storlek och färg på submitknapp*/
           .submit {
             font-size: xx-large;
            color: green;
           }
 
+          /*Ändrar position på ljudfil*/
           audio{
             display: block;
             margin: 0 auto;
+          }
+
+          /*Ändrar storlek på video*/
+          iframe {
+            width: 640px;
+            height:480px;
           }
 

@@ -18,9 +18,10 @@ nav {
 
   }
 
-nav ul+a{
+  /*Sätter den externa länkens position i menyn*/
+  nav ul+a{
   margin: auto;
-}
+  }
 
   /*Flyttar länkar i menyn till mitten*/
   .global{
@@ -87,6 +88,7 @@ nav ul+a{
         color: #93ff93;
       }
       
+      /*Ändrar stil, tjocklek, färg, border och hörn på länk*/
       .link{
         font-family: arial;
         font-weight: bold;
@@ -95,8 +97,36 @@ nav ul+a{
         border-radius: 10px;
       }
 
+      /*Ändrar storlek, stil och färg på rubrik*/
       h1 {
         font-size: xx-large;
         font-family: arial;
         color: #93ff93;
       }
+
+      /*Ändrar färg på text i lista*/
+      li {
+        color: green;
+      }
+
+      /*Ändrar färg på rubrik i tabell*/
+      th {
+        color: green;
+      }
+
+      /*Ändrar färg på text i tabell*/
+      td {
+        color: green;
+      }
+
+      /*Sätter avstånd mellan rutor i tabell*/
+      table {
+        border-collapse: collapse;
+        border-spacing: 20px;
+      }
+
+      /*Sätter ram runt tabell och innehållet*/
+      table, th, td {
+        border: 1px solid green;
+      }
+      
