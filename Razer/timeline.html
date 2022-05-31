@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Ställer in språk-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timeline</title>
-    <link rel="stylesheet" href="timeline.css">
-    <script src="forms.js" defer></script>
+    <title>Timeline</title> <!--Namnger sida-->
+    <link rel="stylesheet" href="timeline.css"> <!--Länkar CSS-->
+    <script src="forms.js" defer></script> <!--Länkar Javascript-->
 </head>
 <body>
     <header>
-        <nav>  
+        <nav>  <!--Skapar global meny med en bild, 3 sidor och en extern länk-->
             <img src="Razer.jpg" alt="Logo">
             <ul class="global">
                 <li><a href="collection.html">Collection</a></li>
@@ -23,16 +23,16 @@
     </header>
 
     <main>
-        <section>
+        <section> <!--Skapar stycke-->
             <p class="history">Razer began as a San Diego, California-based subsidiary of kärna LLC in 1998, created to develop and market a high-end computer gaming mouse, the Boomslang, targeted to computer gamers. Kärna ceased operations in 2000 due to financial issues. The current iteration of Razer was founded in 2005 by Min-Liang Tan, a Singaporean NUS graduate, and Robert Krakoff after they procured the rights to the Razer brand following a large investment from Hong Kong tycoon Li Ka-shing and Singaporean holding company Temasek Holdings.</p>
             <div>
-                <h1>Latest Unveils</h1>
+                <h1>Latest Unveils</h1> <!--Skapar huvudrubrik och video-->
                 <iframe src="https://www.youtube.com/embed/_0ZlXS1TEWg" 
                 title="Latest unveils"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div>
-                <div>
+                <div> <!--Skapar underrubrik och ljudfil-->
                 <h2>Headset test:</h2> 
                 <audio controls>
                 <source src="audiotest.mp3" type="audio/mpeg">
@@ -40,22 +40,22 @@
                     </audio>
                 </div>
 
-                    <img src="timeline.png" alt="Mouse Timeline">
+                    <img src="timeline.png" alt="Mouse Timeline"> <!--Lägger in bild-->
             </div>
             
-            <a class="forms" href="#popup" id="popup">Feedback?</a>
+            <a class="forms" href="#popup" id="popup">Feedback?</a> <!--Skapar länk till popup med formulär-->
         </section>
 
         <div id="form">
             <h2>Forms</h2>
-            <form>
+            <form> <!--Skapar rutor för namn-->
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname"><br>
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname"> <br> <br>
 
 
-                <input type="checkbox" id="headset" name="headset" value="headset">
+                <input type="checkbox" id="headset" name="headset" value="headset"> <!--Skapar checkboxar-->
          <label for="headset"> I have a headset</label><br>
          <input type="checkbox" id="mouse" name="mouse" value="mouse">
          <label for="mouse"> I have a mouse</label><br>
@@ -63,16 +63,16 @@
          <label for="keyboard"> I have a keyboard</label> <br> <br>
 
  
-         <label for="comment">Comment:</label><br>
+         <label for="comment">Comment:</label><br> <!--Skapar ruta för övrig kommentar-->
         <textarea rows="4" cols="50" name="comment" form="usrform" id="comment"></textarea>
 
  
               </form>
               <fieldset>
-                <legend>Select a device:</legend>
+                <legend>Select a device:</legend> <!--Skapar -->
             
                 <div>
-                  <input type="radio" id="headset" name="device" value="headset"
+                  <input type="radio" id="headset" name="device" value="headset"> <!--Skapar tre alternativ-->
                          checked>
                   <label for="headset">Headset</label>
                 </div>
@@ -87,14 +87,14 @@
                   <label for="keyboard">Keyboard</label>
                 </div>
             </fieldset> <br>
-            <input class="submit" type="submit" value="Submit"><br>
+            <input class="submit" type="submit" value="Submit"><br> <!--Skapar länk för att skicka-->
             <br>
 
-            <a href="#" id="closepopup">Close</a>
+            <a href="#" id="closepopup">Close</a> <!--Skapar länk för att stänga popup-->
         </div>
     </main>
 
-    <footer>
+    <footer> <!--Skapar fotter med text i-->
         <p class=footer>By Wilmer Afram Sjöbring</p>
         <p class=footer>Gmail: wiaf04001@utb.vaxjo.se</p>
     </footer>
