@@ -196,14 +196,14 @@
           border-radius: 10px;
           }
 
-          /*Färg på knapp till formulär lyser n'r man håller över*/
-          .forms:hover {
-            color: #93ff93;
-          }
-
           /*Länk till formulär ändrar färg när man klickat*/
           .forms:focus {
             color: rgb(37, 37, 37);
+          }
+
+          /*Färg på knapp till formulär lyser n'r man håller över*/
+          .forms:hover {
+            color: #93ff93;
           }
 
           /*Ändrar bakgruhnd på closeknapp*/
